@@ -2,7 +2,7 @@
 prompt: .ascii "Enter the number of elements: \0"
 space: .ascii " "
 .text  # Code segment
-# Load integers into registers
+
 .globl main
 main:
 	la $a0 prompt	#Print the prompt string with syscall 4.
@@ -32,7 +32,7 @@ loop:
 	beq $t1, $t0, end  # if t1 == 10 end loop
 	add $t4, $t3, $t2 # body
 	
-	addi $t1, $t1, 1 # i++
+	addi $t1, $t1, 1 # in C this step would be equal to i++
 	
 	la $a0 space	#Print the space string with syscall 4.
 	li $v0 4
