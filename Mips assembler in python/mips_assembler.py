@@ -1,4 +1,3 @@
-import binascii
 from instruction_data import instruction_data, register_table
 
 
