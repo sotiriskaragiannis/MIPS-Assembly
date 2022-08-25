@@ -4,4 +4,4 @@ This is an attempt to create an assembler for mips assembly, using python. The p
 - All immediate values should be written in decimal form.
 - J-type instructions (j, jal) dont work with labels. You must input the exact decimal address of the jump.
 - Instructions like lw, sw, sh etc. that use parenthesis must follow a specific syntax like "lw $t4, 4($s0)".
-- The programs doesn't show error messages yet.
+- The program doesn't show error messages yet.
