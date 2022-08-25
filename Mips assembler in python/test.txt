@@ -1,0 +1,14 @@
+add $t1, $t2, $t3
+mult $a0, $a1
+jr $ra
+sub $s0, $s1, $s2
+beq $t0, $t1, labe
+sll $s0, $t1, 5
+sra $s5, $a2, 5
+labe: addi $t4, $t5, 67
+divu $t9, $k1
+or $s0, $t6, $t7
+ori $t8, $t9, 255
+sw $t2, 8($t0)
+lw $t4, 4($t0)
+j 1028 

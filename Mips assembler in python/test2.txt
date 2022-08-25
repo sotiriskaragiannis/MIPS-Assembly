@@ -1,0 +1,2 @@
+loop: addi $s0, $s0, 1
+bne $s0, $s1, loop 
